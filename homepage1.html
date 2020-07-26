@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>efarmer</title>
+  <script src="mapdata.js"></script>
+  <script src="countrymap.js"></script>
+  
+  
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+ body {
+      
+      background-color: #000000;}
+
+.custom-scrollbar-js,
+    .custom-scrollbar-css {
+      height: 600px;
+    }
+    
+    
+    /* Custom Scrollbar using CSS */
+    .custom-scrollbar-css {
+      overflow-y: scroll;
+    }
+    
+    /* scrollbar width */
+    .custom-scrollbar-css::-webkit-scrollbar {
+      width: 5px;
+    }
+    
+    /* scrollbar track */
+    .custom-scrollbar-css::-webkit-scrollbar-track {
+      background: #eee;
+    }
+    
+    /* scrollbar handle */
+    .custom-scrollbar-css::-webkit-scrollbar-thumb {
+      border-radius: 1rem;
+      background-color: #00d2ff;
+      background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);
+    }
+   
+    
+    /* FOOTER */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #73707D;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto 0px;
+  padding: 20px 0px;
+}
+.carousel-inner img {
+    width: 100%;
+   
+  }
+</style></head>
+<body>
+  
+
+   
+       
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>JAI JAWAN JAI KISAN</h3>
+        <p>Cultivators of the earth are the most valuable citizens. They are the most vigorous, the most independent, the most virtuous, and they are tied to their country and wedded to its liberty 
+          and interests by the most lasting bonds.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>FARMERS DONT JUST WORK TILL THE SUN GOES DOWN</h3>
+        <p>THEY WORK TILL THE JOB GETS DONE</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>TO THOSE THAT WORK IN ACRES, NOT IN HOURS</h3>
+        <p>WE THANK YOU!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div></div><br>
+     <br>
+     <nav class="navbar navbar-expand-xl bg-light navbar-blue fixed-top">  
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <li class="col-sm-2">
+          <a class="nav-link" href="homepage1.html">HOME</a>
+        </li></li>
+        <li class="nav-item">
+          <li class="col-sm-2">
+          <a class="nav-link" href="aboutus.html">ABOUT US</a>
+        </li></li>
+        <li class="nav-item">
+          <li class="col-sm-2">
+          <a class="nav-link" href="insurence.html">INSURENCES</a>
+        </li></li>
+        <li class="nav-item">
+          <li class="col-sm-3">
+          <a class="nav-link" href="products.html">ARGICULTURE-MACHINERY</a>
+        </li></li>
+        <li class="nav-item">
+          <li class="col-sm-2">
+          <a class="nav-link" href="myprofile.php">MY PROFILE</a>
+        </li></li>
+        <li class="nav-item">
+          <li class="col-sm-3">
+          <a class="nav-link" href="myproducts.html">CROPS-PRODUCED</a>
+        </li></li>
+        <li class="nav-item">
+            <li class="col-sm-2">
+            <a class="nav-link" href="homepage.html">LOGOUT</a>
+          </li></li>
+        </ul>
+  </nav>
+     <div class="container">
+    
+
+       <center> <h1 class="bg-light text-dark">MAJOR CROPS IN EACH STATE</h1>
+        <div id="map"></div> </center>  
+        </div>
+</div>
+</body>
+</html>
